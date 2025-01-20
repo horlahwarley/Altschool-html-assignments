@@ -35,3 +35,7 @@ th, td {
 tr:hover {
   background-color: rgb(168, 197, 165);
 }
+
+footer {
+  text-align: center;
+}
