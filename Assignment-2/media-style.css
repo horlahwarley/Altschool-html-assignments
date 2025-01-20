@@ -1,0 +1,14 @@
+body {
+    font-family: "Rhodium Libre", serif;
+    background-color: rgb(188, 181, 158);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: bisque;
+    max-width: 70%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(248, 8, 8, 0.1);
+}

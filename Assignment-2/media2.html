@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <style>
+    body {
+      font-family: 'Varela Round', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+    h1 {
+      color: #4CAF50;
+      margin-top: 20px;
+    }
+    picture img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+    audio, video {
+      margin: 20px auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>About Me</h1>
+  <p>Hello! My name is Moses Olawale Ajayi. I'm passionate about technology and shaping the future. Here's a bit about me:</p>
+
+  <!-- Responsive Picture Element -->
+  <picture>
+    <!-- Mobile -->
+    <source srcset="mobile-image.jpg" media="(max-width: 600px)">
+    <!-- Tablet -->
+    <source srcset="tablet-image.jpg" media="(max-width: 1024px)">
+    <!-- Laptop/Desktop -->
+    <source srcset="laptop-image.jpg" media="(min-width: 1025px)">
+    <!-- Fallback image -->
+    <img src="default-image.jpg" alt="Moses Olawale Ajayi">
+  </picture>
+
+  <!-- Audio Element -->
+  <h2>Listen to My Favorite Music</h2>
+  <audio controls>
+    <source src="favorite-music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Video Element -->
+  <h2>Watch My Introduction</h2>
+  <video controls width="600">
+    <source src="introduction.mp4" type="video/mp4">
+    Your browser does not support the video element.
+  </video>
+
+  <!-- Additional Message -->
+  <p>"Dream big, work hard, and never stop believing in yourself."</p>
+</body>
+</html>
