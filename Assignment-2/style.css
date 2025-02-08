@@ -8,14 +8,19 @@ body {
 }
 
 h1 {
+  font-size: 80px;
+  font-weight: 400;
   margin-top: 20px;
 }
 
 .nav {
+  display: flex;
+  justify-content: space-around;
   margin: 20px 0;
 }
 
 .nav a {
+  font-size: 50px;
   text-decoration: none;
   padding: 10px 20px;
   color: white;

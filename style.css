@@ -1,30 +1,66 @@
 body {
   font-family: "Asap", serif;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   text-align: center;
-  background-color: rgb(231, 220, 220);
-  color: rgb(156, 146, 210);
+  background-color: rgba(86, 76, 76, 0.4);
+  color: rgb(107, 85, 234);
 }
 
-h1 {
-  margin-top: 20px;
+header h1 {
+  font-size: 130px;
+  font-weight: 700;
 }
 
+header h2 {
+  font-style: italic;
+  font-size: 100px;
+  font-weight: 500;
+}
+
+main h1 {
+  font-size: 90px;
+  font-weight: 400;
+}
 .nav {
+  display: flex;
+  justify-content: space-evenly;
   margin: 20px 0;
 }
 
 .nav a {
+  font-size: 80px;
   text-decoration: none;
   padding: 10px 20px;
-  color: white;
-  background-color: rgb(156, 146, 210);
-  border-radius: 5px;
-  font-weight: 600;
+  color: rgb(179, 172, 172);
+  border-radius: 10px;
+  font-weight: 500;
   transition: background-color 0.3s ease;
+  background-color: rgb(107, 85, 234);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
 
 .nav a:hover {
-  background-color: rgb(187, 197, 223);
+  background-color: rgb(247, 122, 122);
+}
+
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 50px;
+  }
+
+  header h2 {
+    font-size: 40px;
+  }
+
+  main h1 {
+    font-size: 30px;
+  }
+
+  .nav a {
+    font-size: 20px;
+    padding: 5px 10px;
+  }
 }
